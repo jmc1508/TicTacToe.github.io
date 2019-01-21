@@ -1,0 +1,107 @@
+/*Overall Look*/
+
+.gameBoard
+{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+  padding: 20px;
+
+  background-color: blue;
+
+  clear:both;
+
+  color: black;
+
+	display: grid;
+}
+
+
+.box
+{
+  border: 2px solid ;
+  font-family: Helvetica;
+  font-size: 12pt;
+  background-color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paraDisplayResult {
+
+  background-color: rgba(128,128,128,0.2);
+  padding: 5px;
+  width: 300px;
+  height: 20px;
+  align-items: center;
+
+  float:left;
+
+  font-family: Helvetica;
+  font-size: 10pt;
+
+  color: rgba(255,0,0,0.7);
+}
+
+#userNote {
+  font-family: Helvetica;
+  font-size: 10pt;
+}
+
+#textSubmit {
+  width: 300px;
+}
+
+/*Style of score tracker*/
+#scorePlayerX {
+
+  float:right;
+  padding: 5px;
+  width: 170px;
+  height: 20px;
+  background-color: rgba(128,128,128,0.2);
+
+  font-family: Helvetica;
+  font-size: 10pt;
+
+}
+
+#scorePlayerO {
+
+  float:right;
+  padding: 5px;
+  width: 170px;
+  height: 20px;
+  background-color: rgba(128,128,128,0.2);
+
+  margin-right: 5px;
+
+  font-family: Helvetica;
+  font-size: 10pt;
+}
+
+/*Button Styles*/
+
+#playAgain {
+  color: white;
+  background-color: blue;
+  border: 2pt solid grey;
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+
+}
+
+
+#gameReset {
+  color: white;
+  background-color: red;
+  border: 2pt solid grey;
+  width: 100px;
+  height: 50px;
+  margin-right: 50px;
+
+}

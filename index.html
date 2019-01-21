@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+
+	<!-- Link to style css -->
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!-- Section -->
+
+	<section>
+		<h1>Tic Tac Toe</h1>
+
+		<p id="userNote">Note: Create a grid size of your choice. There is no AI but the winning conditions can be dynamically checked based on the user's preferred grid size. If you want to change the grid size, you have to reset the game.</p>
+
+		<form id = "inputForm">
+			<input id="textSubmit" type="text" name="gridSize" placeholder="Enter a number between 3 and 10">
+			<input id = "buttonSubmit" type="submit" name="buttonSubmit">
+		</form>	
+
+			<p id="displayResult" class="paraDisplayResult">
+
+			</p>
+
+			<p id="scorePlayerX">
+				Score of Player X: <span id="updateScoreX"></span>
+			</p>
+
+			<p id="scorePlayerO">
+				Score of Player O: <span id="updateScoreO"></span>
+			</p>
+
+
+	</section>
+
+<!-- Section  Playing Gride -->
+	<section>
+	<!-- Use a list to contain the gameboard grids -->
+		<ul class="gameBoard">
+
+		</ul>
+
+
+	</section>
+
+<!-- Section - User Button to Play Again or Reset -->
+	<section id="userButtonSection">
+		<h2>User Buttons</h2>
+		
+		<form>
+			<input id="playAgain" type="submit" value = "Play Again">
+
+			<input id="gameReset" type="submit" value="Reset Game">
+
+		</form>	
+	</section>	
+
+<!-- Link to Javascript -->
+	<script src="script.js" type="text/javascript"></script>
+
+</body>
+</html>
